@@ -1,4 +1,6 @@
-<?php require_once('./header.php');
+<?php 
+require "./data.php";
+require_once('./header.php');
 
 ?>
 
@@ -8,7 +10,7 @@
             Contactez moi !
         </div>
         <div class="grid max-w-xl grid-cols-2 gap-4 m-auto">
-            <div class="col-span-2 lg:col-span-1">
+            <div class="col-span-2 lg:col-span-1">          
                 <div class=" relative ">
                     <input type="text" id="contact-form-name"
                            class=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
