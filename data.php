@@ -18,5 +18,11 @@ $realisations = [
         "image" => "https://i.pinimg.com/originals/0b/07/e6/0b07e6c038ceecfb02d3b96bda9c8738.png",
         "link" => "https://github.com/laravel/laravel"
     ],
+    [
+        "title" => "Git",
+        "description" => "Git is a distributed version-control system for tracking changes in any set of files, originally designed for coordinating work among programmers cooperating on source code during software development.[8] Its goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different systems).",
+        "image" => "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg",
+        "link" => "https://git-scm.com/"
+    ]
 ];
 ?>
