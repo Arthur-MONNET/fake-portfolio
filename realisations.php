@@ -1,5 +1,6 @@
 
 <?php
+require "./data.php";
 require_once('./header.php');
 
 ?>
@@ -9,7 +10,7 @@ require_once('./header.php');
 <div class="sm:flex flex-wrap justify-center items-center text-center gap-8 mt-40">
     <?php
     foreach ($realisations as $realisation) {
-        include "./realisation";
+        include "./realisation.php";
     }
 ?>
 </div>
