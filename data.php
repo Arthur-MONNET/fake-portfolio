@@ -1,63 +1,70 @@
 <?php
 $realisations = [
     [
-        "title" => "Linux",
-        "description" => "Linux is a family of open-source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991. Linux is typically packaged in a Linux distribution.",
-        "image" => "https://p4.wallpaperbetter.com/wallpaper/980/964/908/linux-minimalism-foxyriot-tux-wallpaper-preview.jpg",
-        "link" => "https://github.com/torvalds/linux"
+        "title" => "ArtYourMusic",
+        "description" => "Créé lors de mes premiers cours de HTML/CSS j'ai déveloper ce premier site internet.",
+        "image" => "",
+        "link" => ""
     ],
     [
-        "title" => "PHP",
-        "description" => "PHP is a popular general-purpose scripting language that is especially suited to web development. Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world.",
-        "image" => "https://www.live-rates.com/system/blogs/attachments/000/000/026/original/php1.jpg?1547433041",
-        "link" => "https://www.php.net/"
+        "title" => "Carrousel d' HDA",
+        "description" => "Pour nos cours d'histoire des art il fallait créé une frise chronologique, j'ai donc décidé de la faire en HTML/CSS ",
+        "image" => "",
+        "link" => "https://arthur-monnet.github.io/friseChronologiqueHDA/"
     ],
     [
-        "title" => "Laravel",
-        "description" => "Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. ",
-        "image" => "https://i.pinimg.com/originals/0b/07/e6/0b07e6c038ceecfb02d3b96bda9c8738.png",
-        "link" => "https://github.com/laravel/laravel"
+        "title" => "Carrousel de citation",
+        "description" => "J'ai créé ce carroucel de citation en HTML/CSS et JavaScript! lors de mes premiers cours de JS. (bonus mode sombre). ",
+        "image" => "",
+        "link" => "https://arthur-monnet.github.io/CarrouseldeCitation/"
     ],
     [
-        "title" => "Git",
-        "description" => "Git is a distributed version-control system for tracking changes in any set of files, originally designed for coordinating work among programmers cooperating on source code during software development.[8] Its goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different systems).",
-        "image" => "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg",
-        "link" => "https://git-scm.com/"
+        "title" => "Bowser Castle",
+        "description" => "Site créé en HTML/CSS dans le cadre d'un workshop d'une semaine. ",
+        "image" => "",
+        "link" => ""
     ]
 ];
 
 $user = [
     "name" => "Arthur Monnet",
-    "job" => "Développeuse / Photographe",
-    "url" => "https://images.unsplash.com/photo-1474978528675-4a50a4508dc3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+    "job" => "Développeur Web et Mobile",
+    "url" => "./image/photo_de_profile.png"
 ];
 
 
 $formations = [
     [
-        "date" => "2017/2019",
-        "formation" => "BDDI1",
-        "lieu" => "École des gobelins",
-        "description" => "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "date" => "2020/2023",
+        "formation" => "Bachelor Developpeur Web et Mobile en 3 ans",
+        "lieu" => "École des Gobelins",
+        "description" => "",
+    ],
+    [
+        "date" => "2017/2020",
+        "formation" => "Bac Scientifique option ISN",
+        "lieu" => "Lycée Charles Baudelaire",
+        "description" => "",
     ],
 ];
 
 
 $passions = [
     [
+        "passion" => "Velo",
+        "description" => "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+    ],
+    [
+        "passion" => "Musique",
+        "description" => "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+    ],
+    [
         "passion" => "Photographie",
         "description" => "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
-
     ],
     [
-        "passion" => "Sports extrêmes",
+        "passion" => "Jeux de Société",
         "description" => "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
-
-    ],
-    [
-        "passion" => "Théâtre",
-        "description" => "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
-
     ],
 ];
 ?>
