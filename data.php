@@ -3,25 +3,25 @@ $realisations = [
     [
         "title" => "ArtYourMusic",
         "description" => "Créé lors de mes premiers cours de HTML/CSS j'ai déveloper ce premier site internet.",
-        "image" => "",
+        "image" => "images/artYourMusic.png",
         "link" => ""
     ],
     [
         "title" => "Carrousel d' HDA",
         "description" => "Pour nos cours d'histoire des art il fallait créé une frise chronologique, j'ai donc décidé de la faire en HTML/CSS ",
-        "image" => "",
+        "image" => "images/hda.png",
         "link" => "https://arthur-monnet.github.io/friseChronologiqueHDA/"
     ],
     [
         "title" => "Carrousel de citation",
         "description" => "J'ai créé ce carroucel de citation en HTML/CSS et JavaScript! lors de mes premiers cours de JS. (bonus mode sombre). ",
-        "image" => "",
+        "image" => "images/carrousel_citation.png",
         "link" => "https://arthur-monnet.github.io/CarrouseldeCitation/"
     ],
     [
         "title" => "Bowser Castle",
         "description" => "Site créé en HTML/CSS dans le cadre d'un workshop d'une semaine. ",
-        "image" => "",
+        "image" => "images/workshop.png",
         "link" => ""
     ]
 ];
@@ -29,7 +29,7 @@ $realisations = [
 $user = [
     "name" => "Arthur Monnet",
     "job" => "Développeur Web et Mobile",
-    "url" => "./image/photo_de_profile.png"
+    "url" => "images/photo_de_profile.png"
 ];
 
 
