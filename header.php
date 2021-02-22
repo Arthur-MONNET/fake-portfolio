@@ -1,10 +1,14 @@
+<?php
+$random=rand(1,2);
+?>
+
 <html>
 <head>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <title>Marie-Louise Bourreau - Portfolio</title>
+    <title><?php echo $user["name"]?> - Portfolio</title>
     <style>
         body {
-            background-image: url("images/background<php? rand (1,2); ?>.jpg");
+            background-image: url(<?php echo "images/background".$random.".jpg" ?>);
             background-repeat: no-repeat;
             background-size: cover;
             background-attachment: fixed;
