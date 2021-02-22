@@ -4,7 +4,7 @@
     <title>Marie-Louise Bourreau - Portfolio</title>
     <style>
         body {
-            background-image: url("images/background1.jpg");
+            background-image: url("images/background<php? rand (1,2); ?>.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             background-attachment: fixed;
