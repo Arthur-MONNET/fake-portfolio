@@ -1,10 +1,12 @@
 
-<?php require_once('./header.php');
+<?php
+require "./data.php";
+ require_once('./header.php');
 
 ?>
 
 
-<img alt="profil" src="<?php echo $user["url"] ?>" class="mx-auto object-cover rounded-full h-96 w-96 "/>
+<img alt="profil" src="<?php echo $user["url"]; ?>" class="mx-auto object-cover rounded-full h-96 w-96 "/>
 <h1 class="font-sans text-center mt-3 text-6xl"><?php echo $user["name"] ?></h1>
 <h1 class="font-sans text-center mt-2 text-6xl"> - </h1>
 <h1 class="font-sans text-center mt-2 text-4xl"><?php echo $user["job"] ?></h1>
